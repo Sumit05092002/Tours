@@ -1,0 +1,84 @@
+/* write your css here */
+body {
+    background-color: #faa499;
+    background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
+
+}
+
+.parent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tours {
+    height: 1000px;
+    width: 999px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.mycard {
+    height: auto;
+    width: 200px;
+    background-color: #faa499;
+    background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    background-color: rgb(201, 69, 69);
+    border-radius: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #ba2d0b;
+    background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
+    cursor:pointer;
+}
+.description:hover{
+    cursor:pointer;
+}
+.showless{
+    color:blue;
+}
+.heading{
+    border:1px black;
+    border-style: dashed;
+    border-radius: 10px;
+}
+.mycard:hover{
+    -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.empty{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nothing{
+    height:300px;
+    width:300px;
+    display:flexx;
+    flex-direction:column;
+}
